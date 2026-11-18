@@ -24,17 +24,34 @@ token usage.
 
 ## Install
 
-The package root is this repository, so install the directory itself:
+The package root is this repository, so DSH can install it straight from GitHub:
 
-1. Clone the repository.
-2. In DSH, open **Settings → Plugins → Add plugin** and choose the cloned
-   directory, or run:
+1. In DSH, open **Settings → Plugins → Add plugin**.
+2. Enter the repository spec and confirm:
+
    ```
-   plugin_manager install_bundle <absolute path to the cloned directory>
+   github:junyuecao/dsh-usage-balance
    ```
+
+   `https://github.com/junyuecao/dsh-usage-balance` works as well. The Host
+   accepts a Git spec here, so no clone is needed.
 3. Restart DSH once. A new client bundle is not live until the process reloads;
    later edits to `client.js` hot-reload on their own.
 4. Open any session. The readout appears at the top right of the conversation.
+
+**Pin a version** by appending a full commit SHA, which is how DSH names a Git
+release:
+
+```
+github:junyuecao/dsh-usage-balance#<40-character commit sha>
+```
+
+**From a clone** (for development), point the same dialog at the directory, or
+run `plugin_manager install_bundle <absolute path to the clone>`.
+
+**Updates**: for a Git-installed bundle the Plugins list offers the repository's
+newer commit; install it and restart. Registry-style semver updates are not
+used here because the package is not published to npm.
 
 Disable **Usage and balance** under Settings → Plugins to turn it off. No
 session data is written by this plugin, so disabling it loses nothing.
