@@ -23,6 +23,7 @@
     "locale/*.json",
     "README.md",
     "LICENSE",
+    "docs",
     "icon.svg"
   ],
   "dsh": {

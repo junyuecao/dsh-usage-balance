@@ -14,6 +14,10 @@ token usage.
 - **Click the readout** for the wallet and per-bucket breakdown, a manual
   refresh, and the Platform usage page.
 
+![The balance and token-usage readout in the session header](docs/preview.png)
+
+*The balance amount is masked in this capture.*
+
 ## Install
 
 The package root is this repository, so install the directory itself:
