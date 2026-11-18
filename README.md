@@ -18,6 +18,10 @@ token usage.
 
 *The balance amount is masked in this capture.*
 
+![The detail popover: balance, per-bucket token usage, refresh and the platform link](docs/preview-details.png)
+
+*Clicking the readout opens this panel. The balance amount is masked here too.*
+
 ## Install
 
 The package root is this repository, so install the directory itself:
