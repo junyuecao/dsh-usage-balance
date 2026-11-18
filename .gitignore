@@ -1,0 +1,10 @@
+# Dependencies and local state are never part of the plugin source.
+node_modules/
+.tmp/
+*.log
+
+# Editor and OS noise.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Balance and usage">
+  <g fill="none" stroke="#2477c4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="18" cy="18" r="12.2" />
+    <path d="M13.2 12.6 18 17.4l4.8-4.8" />
+    <path d="M18 17.4V24" />
+    <path d="M13.6 19.6h8.8" />
+    <path d="M13.6 22.4h8.8" />
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Usage and balance",
+    "description": "Shows your DeepSeek account balance and this session's token usage in the session header. Click the readout for the input, cache, and output breakdown, a manual refresh, and the Platform usage page."
+  }
+}
